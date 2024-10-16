@@ -1,0 +1,240 @@
+a {
+  color: rgb(66, 65, 65);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #27a8c9;
+}
+
+body {
+  background: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/486/original/tomoko-uji-kxvn1ogpTtE-unsplash.jpg?1669570603)
+    no-repeat center center fixed;
+  background-size: 100%;
+  color: rgb(66, 65, 65);
+  font-family: "Quicksand", sans-serif;
+  margin: auto;
+  max-width: 70%;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: 100;
+  height: 28px;
+  line-height: 1.5;
+  margin-bottom: 45px;
+}
+
+#celsius-link {
+  bottom: -150px;
+  position: relative;
+  right: -10px;
+}
+#country {
+  font-size: 35px;
+  margin-top: 80px;
+}
+
+#date-time {
+  color: rgb(66, 65, 65);
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+.mainDescription,
+#description {
+  color: rgb(66, 65, 65);
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+#extraDescription {
+  color: rgb(66, 65, 65);
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1.5;
+  margin: 0 0 30px;
+  padding: 0 auto;
+  text-align: center;
+}
+
+#first-alert {
+  margin-bottom: 0;
+  text-align: center;
+}
+#fahrenheit-link {
+  bottom: -195px;
+  position: relative;
+  right: 25px;
+}
+#forecast {
+  margin: 20px;
+}
+#gps {
+  border-radius: 50%;
+  border: 1px solid rgb(66, 65, 65);
+  bottom: -110px;
+  color: rgb(66, 65, 65);
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 10px 15px;
+  position: relative;
+  right: -30px;
+}
+#gps:hover {
+  background-color: #f8dcfcbb;
+  transition: ease-out 0.2s;
+}
+.humidityElement,
+.pressureElement,
+.windElement,
+#humidity,
+#pressure,
+#wind {
+  font-size: 20px;
+}
+#icon {
+  background: rgba(221, 218, 218, 0.568);
+  background-color: rgba(247, 243, 243, 0.342);
+  border: 2px solid rgba(94, 92, 92, 0.712);
+  border-radius: 50%;
+  box-shadow: 2px 2px 30px;
+  display: inline-block;
+  margin-left: -30px;
+  margin-top: 150px;
+  transition: linear 0.25s;
+  width: 200px;
+}
+
+#search-city-bar {
+  line-height: 2.5;
+  margin: auto 0;
+  padding: 50px;
+  width: 50%;
+}
+#search-form {
+  margin-top: 40px;
+  margin-left: 260px;
+  width: 40%;
+}
+#show-time {
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+#second-alert {
+  text-align: center;
+}
+#temperature {
+  color: rgb(66, 65, 65);
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-top: 0 auto;
+  padding: 0;
+}
+.calendar {
+  margin-left: 10px;
+}
+.cityName {
+  margin-left: 100px;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+.container {
+  margin-top: 20px;
+  max-width: 80%;
+}
+.col-2 {
+  background: rgba(248, 247, 235, 0.322);
+  border: 1px solid rgba(153, 150, 150, 0.555);
+  border-radius: 30px;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  transition: all 300ms ease-in-out;
+}
+
+.col-2:hover {
+  background: rgba(245, 223, 163, 0.521);
+}
+
+.current-temp-degree {
+  color: rgb(66, 65, 65);
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.overview {
+  margin: 20px;
+}
+
+.unitBtn {
+  border: 1px solid rgb(66, 65, 65);
+  border-radius: 50%;
+  color: rgb(66, 65, 65);
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 8px;
+  padding: 10px 15px;
+}
+.unitBtn:hover {
+  background-color: #f8dcfcbb;
+  transition: ease-out 0.2s;
+}
+.active {
+  background-color: #f8dcfcbb;
+}
+.referenceLink {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-app-body {
+  background-color: rgba(231, 231, 231, 0.671);
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 50%;
+  box-shadow: 2px 2px 30px;
+  padding: 30px;
+  margin: auto;
+}
+
+.weather-app-wrapper {
+  margin: 0 auto;
+  max-height: 50%;
+  padding: 30px;
+}
+.weather-description {
+  margin: 20px;
+}
+.weather-forecast {
+  background: rgba(221, 218, 218, 0.568);
+  border: 0.9px solid rgba(94, 92, 92, 0.712);
+  border-radius: 30px;
+  box-shadow: 2px 2px 30px;
+  display: block;
+  margin: 20px;
+  padding: 0 auto;
+  line-height: 1.5;
+  text-align: center;
+}
+.weather-forecast:hover {
+  border: 2px solid rgba(94, 92, 92, 0.712);
+  transition: ease-out 0.2s;
+}
+.weather-forecast-date {
+  font-size: 30px;
+}
+.weather-forecast-temperature-max {
+  font-size: 25px;
+}
