@@ -58,7 +58,7 @@ function showFullTime() {
   currentTime.innerHTML = `<b>${hours} : ${minutes} : ${seconds}</b><br/>${currentDay} <br/>${currentMonth} ${dateDay},<br/> ${currentYear}`;
 }
 showFullTime();
-
+//Formats the day
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
   let day = date.getDay();
